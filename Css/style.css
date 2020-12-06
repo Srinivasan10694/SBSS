@@ -9,7 +9,8 @@
 html body {
   height: 100%;
   /* background-color: #a4b4c4; */
-  background-color: #deebf7;
+  /* background-color: #deebf7; */
+  background-color: #f4f6f7;
   /* background-color: #EEF5F9; */
 }
 
@@ -19,7 +20,6 @@ html {
 
 .navbar {
   display: flex;
-  position: relative;
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
@@ -50,7 +50,7 @@ li {
 li a {
   text-decoration: none;
   color: black;
-  display: block;
+  display: inline;
   font-size: 20px;
   letter-spacing: 2px;
   padding-bottom: 5px;
@@ -58,7 +58,7 @@ li a {
 li a:hover {
   text-decoration: none;
   color: #ee0909;
-  /* border-bottom: 2px solid #EE0909; */
+  /* border-bottom: 2px solid #ee0909; */
 }
 
 .toggle-button {
@@ -406,7 +406,4 @@ input[type="submit"]:hover {
     font-size: 14px;
     width: 100%;
   }
-}
-
-@media only screen and (max-width: 380px) {
 }
